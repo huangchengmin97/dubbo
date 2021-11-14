@@ -402,6 +402,11 @@
                         </executions>
                     </plugin>
                     <plugin>
+                        <groupId>edu.illinois</groupId>
+                        <artifactId>nondex-maven-plugin</artifactId>
+                        <version>1.1.2</version>
+                    </plugin>
+                    <plugin>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>${maven_javadoc_version}</version>
                         <executions>
